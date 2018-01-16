@@ -7,11 +7,11 @@ def draw_shape():
     brad = turtle.Turtle()
     brad.shape("triangle")
     brad.color("red")
-    brad.speed(50)
+    brad.speed(5)
 
     #circle using squares
     counter = 0
-    while counter < 30:
+    while counter < 36:
         
         #draw square
         
@@ -23,7 +23,7 @@ def draw_shape():
             count = count + 1
             #end of square
 
-        coutner = counter + 1
+        counter = counter + 1
         brad.right(10)
             
     window.exitonclick()
